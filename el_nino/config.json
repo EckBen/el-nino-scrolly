@@ -1,0 +1,546 @@
+{
+  "components": [{
+    "type": "header",
+    "props": {
+      "bgcolor": "#003087"
+    },
+    "html_content": [{
+      "tag": "div",
+      "attributes": {
+        "id": "header-content"
+      },
+      "html_content": [{
+        "tag": "div",
+        "attributes": {
+          "id": "header-content-left"
+        },
+        "html_content": [{
+          "tag": "h1",
+          "text": "El Niño Impacts and Outlook"
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "id": "header-content-center"
+        },
+        "html_content": [{
+          "tag": "img",
+          "attributes": {
+            "src": "./assets/noaa_emblem_logo-2022.png",
+            "alt": "NOAA emblem",
+            "style": {
+              "height": "200px"
+            }
+          }
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "id": "header-content-right"
+        },
+        "html_content": [{
+          "tag": "h2",
+          "text": "Northeast Region",
+          "attributes": {
+            "style": {
+              "font-style": "normal"
+            }
+          }
+        },{
+          "tag": "h2",
+          "text": "October 2018",
+          "attributes": {
+            "style": {
+              "font-size": "30px"
+            }
+          }
+        }]
+      }]
+    }]
+  },{
+    "type": "section",
+    "props": {
+      "width": "wide"
+    },
+    "html_content": [{
+      "type": "scroller",
+      "props": {
+        "id": "elnino",
+        "splitscreen": true
+      },
+      "html_content": [{
+        "tag": "div",
+        "attributes": {
+          "slot": "backgroundTitle",
+          "style": {
+            "background-color": "#0085CA"
+          }
+        },
+        "html_content": [{
+          "tag": "h3",
+          "text": "{state.title}",
+          "attributes": {
+            "style": {
+              "margin": "0px",
+              "color": "white",
+              "padding": "10px 20px",
+              "font-size": "30px"
+            }
+          }
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "slot": "background",
+          "class": "height-full-minus-title vertical-center"
+        },
+        "html_content": [{
+          "type": "media",
+          "props": {
+            "title": "{state.imgTitle}",
+            "caption": "{state.imgCaption}"
+          },
+          "html_content": [{
+            "type": "imgchanger",
+            "props": {
+              "src": "./assets/{state.imgSrc}",
+              "alt": "{state.imgAlt}"
+            }
+          }]
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "slot": "foreground"
+        },
+        "html_content": [{
+          "tag": "section",
+          "attributes": {
+            "data-id": "highlights01"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "Highlights for the Northeast",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "An El Niño develops when sea surface temperatures are warmer than average in the equatorial Pacific for an extended time. This is important to North America because El Niño can impact our weather patterns, especially in the winter."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "highlights02"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "p",
+              "text": "Although each El Niño is different, there are some general patterns that are predictable. For instance, the polar jet stream is typically farther north than usual, while the Pacific jet stream remains across the southern U.S."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "highlights03"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "p",
+              "text": "The dry winter conditions that characterize Ohio and the Midwest commonly extend eastward into western New York and Pennsylvania. As storms often move up the coast during El Niño winters, the Eastern Seaboard generally experiences above-normal precipitation."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "outlooks01"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "Winter Temperature and Precipitation Outlooks",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "As of mid-October, <a href='https://www.noaa.gov/media-release/winter-outlook-favors-warmer-temperatures-for-much-of-us'>NOAA's winter outlooks</a> (right) show that above-normal temperatures are favored for New England, New York, the northern half of Pennsylvania, and northern New Jersey. Equal chances of below-, near-, or above-normal temperatures are forecast for the rest of the region. Meanwhile, the precipitation outlook indicates that Delaware, much of Maryland and New Jersey, southeastern Pennsylvania, and portions of West Virginia could have above-normal precipitation, while equal chances are predicted for the rest of the Northeast. The seasonal outlooks combine many factors including dynamical models, the effects of long-term trends, and soil moisture, in addition to past El Niño patterns. Therefore, they may not match typical El Niño conditions exactly."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "outlooks02"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "El Niño Strength",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "While ENSO-neutral conditions were present in the equatorial Pacific Ocean during September, areas of above- average sea surface temperatures were becoming more widespread. According to the Climate Prediction Center, there is a <a href='https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml'>70-75% chance</a> that El Niño will form in the next few months and continue through winter 2018-19. The forecast favors a weak El Niño event."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "impacts01"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "Coastal Storms",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "Several research studies have noted an increased frequency of East Coast storms during El Niño winters. These storms, known as nor’easters, have a number of coastal impacts, ranging from beach erosion and high winds to heavy snowfall and precipitation."
+            },{
+              "tag": "p",
+              "text": "Storms that follow a classic nor’easter track from south of Cape Hatteras along the East Coast are the main contributor to this increase. Hirsch et al. (2001) found an additional two storms with this track occur during El Niño winters compared to other winters. Strong El Niño events are particularly associated with this increase."
+            },{
+              "tag": "p",
+              "text": "Significant snow storms such as the Blizzard of ‘58 and a second March 1958 nor’easter occurred in conjunction with El Niño conditions, as did the February 2003 Presidents' Day Storm. Storms such as the \"Perfect Storm\" in October 1991 brought 15 to 30 foot waves to coastal New England during a strong El Niño. More recently, the <a href='http://www.nrcc.cornell.edu/services/special/reports/blizzard2016.pdf'>blizzard of January 2016</a> severely impacted the Northeast during one of the strongest El Niños on record."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "impacts02"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "Snowfall",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "Snowfall along the Northeast coast is typically above average during El Niño winters. The exception to this is the lake-effect region in New York. Buffalo's two least snowy winters since 1950 occurred during strong El Niños."
+            },{
+              "tag": "p",
+              "text": "Typically, in regions closer to the coast, December through February snowfall is as much as 6 inches greater during such winters. In Washington, DC, eight of the ten greatest 1-day snowfalls since 1950 have occurred during El Niños. However, individual storm tracks can influence where precipitation falls as rain versus snow."
+            },{
+              "tag": "p",
+              "text": "Heavy East Coast snowfalls have negative impacts on transportation and the economy. Based on the <a href='https://www.ncei.noaa.gov/access/monitoring/rsi/nesis'>Northeast Snowfall Impact Scale</a>, an index that infers societal impacts based on the geographical extent and amount of snowfall along with population data, eight of the ten storms classified as crippling have occurred in conjunction with El Niño."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "compLimits01"
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "h3",
+              "text": "Winter Conditions During Past El Niños",
+              "attributes": {
+                "class": "subsection-header"
+              }
+            },{
+              "tag": "p",
+              "text": "The maps above illustrate the winter conditions during the record breaking El Niño of 2015-16. The entire region was warmer than normal, and precipitation was generally near to above normal. This aligns with the weather patterns typically seen during El Niño winters and those expected this winter. Snowfall signals varied across the region"
+            },{
+              "tag": "p",
+              "text": " While New England, New York, and northern Pennsylvania saw below-normal snowfall, southeastern Pennsylvania, West Virginia, and the Mid-Atlantic saw above-normal snowfall."
+            },{
+              "tag": "p",
+              "text": "Each El Niño is different and other factors can affect winter conditions, such pre-exisiting global snow cover patterns or climate variability associated with the <a href='https://www.ncei.noaa.gov/access/monitoring/ao/'>Arctic Oscillation</a> and <a href='https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml'>North Atlantic Oscillation</a>. For instance, during the winter of 1965-1966, expected El Niño precipitation was subdued due to a strong negative North Atlantic Oscillation. These patterns are less able to be forecast far in advance compared to El Niño, meaning it is uncertain how much they will affect the upcoming winter."
+            }]
+          }]
+        }]
+      }]
+    }]
+  },{
+    "type": "section",
+    "props": {
+      "width": "wide"
+    },
+    "html_content": [{
+      "tag": "div",
+      "attributes": {
+        "class": "section-header"
+      },
+      "html_content": [{
+        "tag": "h3",
+        "text": "Northeast Partners"
+      }]
+    },{
+      "tag": "div",
+      "attributes": {
+        "class": "col-medium"
+      },
+      "html_content": [{
+        "tag": "div",
+        "text": "<a href='https://www.noaa.gov/'>National Oceanic and Atmospheric Administration</a> offices including:"
+      },{
+        "tag": "div",
+        "attributes": {
+          "class": "col-medium"
+        },
+        "html_content": [{
+          "tag": "ul",
+          "attributes": {
+            "class": "partner-list"
+          },
+          "html_content": [{
+            "tag": "li",
+            "text": "<a href='https://www.ncei.noaa.gov/'>NESDIS/National Centers for Environmental Information</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.weather.gov/erh/'>NWS, Eastern Region</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.cpc.ncep.noaa.gov/'>NWS, Climate Prediction Center</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.nohrsc.noaa.gov/'>NWS, National Operational Hydrologic Remote Sensing Center</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.fisheries.noaa.gov/'>NMFS, Fisheries Science Centers and Regional Office, Atlantic</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://oceanservice.noaa.gov/'>NOS, Office for Coastal Management</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://research.noaa.gov/'>OAR, Climate Program Office and Geophysical Fluid Dynamics Lab</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://seagrant.noaa.gov/'>OAR, National Sea Grant Office</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.noaa.gov/regional-collaboration-network'>NOAA's North Atlantic and Greate Lakes Regional Collaboration Teams</a>"
+          }]
+        }]
+      },{
+        "tag": "div",
+        "text": "And the following other offices:"
+      },{
+        "tag": "div",
+        "attributes": {
+          "class": "col-medium"
+        },
+        "html_content": [{
+          "tag": "ul",
+          "attributes": {
+            "class": "partner-list"
+          },
+          "html_content": [{
+            "tag": "li",
+            "text": "<a href='http://www.nrcc.cornell.edu/'>Northeast Regional Climate Center</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.drought.gov/'>National Integrated Drought Information System</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.ccrun.org/'>Consortium of Climate Risk in the Urban Northeast</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://website.whoi.edu/cinar/'>Cooperative Institute for the North Atlantic Region</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://stateclimate.org/'>Northeast Region State Climatologists</a>"
+          },{
+            "tag": "li",
+            "text": "<a href='https://www.midatlanticrisa.org/'>Mid-Atlantic RISA</a>"
+          }]
+        }]
+      }]
+    }]
+  },{
+    "type": "footer",
+    "props": {
+      "bgcolor": "#003087"
+    },
+    "html_content": [{
+      "tag": "div",
+      "attributes": {
+        "id": "footer-content",
+        "style": {
+          "color": "white",
+          "display": "flex",
+          "justify-content": "space-between"
+        }
+      },
+      "html_content": [{
+        "tag": "div",
+        "attributes": {
+          "id": "footer-content-left"
+        },
+        "html_content": [{
+          "tag": "p",
+          "text": "Contact:",
+          "attributes": {
+            "style": {
+              "margin-top": "4px",
+              "align-self": "start"
+            }
+          }
+        },{
+          "tag": "div",
+          "html_content": [{
+            "tag": "p",
+            "text": "Ellen Mecray (Ellen.L.Mecray@noaa.gov)"
+          },{
+            "tag": "p",
+            "text": "Northeast Regional Climate Center (nrcc@cornell.edu)"
+          }]
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "id": "footer-content-center"
+        },
+        "html_content": [{
+          "tag": "img",
+          "attributes": {
+            "src": "./assets/noaa_emblem_logo-2022.png",
+            "alt": "NOAA emblem",
+            "style": {
+              "height": "50px"
+            }
+          }
+        }]
+      },{
+        "tag": "div",
+        "attributes": {
+          "id": "footer-content-right",
+          "style": {
+            "font-style": "italic"
+          }
+        },
+        "html_content": [{
+          "tag": "p",
+          "text": "Northeast Region El Niño Impacts and Outlook | October 2018",
+          "attributes": {
+            "style": {
+              "font-size": "16px"
+            }
+          }
+        },{
+          "tag": "p",
+          "html_content": [{
+            "tag": "a",
+            "text": "https://www.drought.gov/drought/resources/reports",
+            "attributes": {
+              "href": "https://www.drought.gov/drought/resources/reports",
+              "style": {
+                "color": "white",
+                "font-size": "12px",
+                "text-decoration": "none"
+              }
+            }
+          }]
+        }]
+      }]
+    }]
+  }],
+  "scroller": {
+    "state": {
+      "imgAlt": "North America map of typical weather pattern during El Niño events.",
+      "imgCaption": "The image above shows the typical pattern in the winter during El Ni&#xf1;o events. The polar jet stream tends to stay farther north than usual, while the Pacific jet stream remains across the southern U.S. Since much of the region lies between the two storm tracks, temperature and precipitation patterns vary considerably from south to north. The diagram above from NOAA represents general patterns and is not created from actual data. For more information, please visit: <a href='https://www.climate.gov/news-features/department/enso-blog'>https://www.climate.gov/news-features/department/enso-blog</a>.",
+      "imgSrc": "jet_stream.png",
+      "imgTitle": "",
+      "title": "Typical El Niño Winter Pattern"
+    },
+    "actions": {
+      "elnino": {
+        "highlights01": [
+          ["imgAlt", "North America map of typical weather pattern during El Niño events."],
+          ["imgCaption", "The image above shows the typical pattern in the winter during El Ni&#xf1;o events. The polar jet stream tends to stay farther north than usual, while the Pacific jet stream remains across the southern U.S. Since much of the region lies between the two storm tracks, temperature and precipitation patterns vary considerably from south to north. The diagram above from NOAA represents general patterns and is not created from actual data. For more information, please visit: <a href='https://www.climate.gov/news-features/department/enso-blog'>https://www.climate.gov/news-features/department/enso-blog</a>."],
+          ["imgSrc", "jet_stream.png"],
+          ["imgTitle", ""],
+          ["title", "Typical El Niño Winter Pattern"]
+        ],
+        "highlights02": [
+          ["imgAlt", "North America map of typical weather pattern during El Niño events."],
+          ["imgCaption", "The image above shows the typical pattern in the winter during El Ni&#xf1;o events. The polar jet stream tends to stay farther north than usual, while the Pacific jet stream remains across the southern U.S. Since much of the region lies between the two storm tracks, temperature and precipitation patterns vary considerably from south to north. The diagram above from NOAA represents general patterns and is not created from actual data. For more information, please visit: <a href='https://www.climate.gov/news-features/department/enso-blog'>https://www.climate.gov/news-features/department/enso-blog</a>."],
+          ["imgSrc", "jet_stream.png"],
+          ["imgTitle", ""],
+          ["title", "Typical El Niño Winter Pattern"]
+        ],
+        "highlights03": [
+          ["imgAlt", "North America map of typical weather pattern during El Niño events."],
+          ["imgCaption", "The image above shows the typical pattern in the winter during El Ni&#xf1;o events. The polar jet stream tends to stay farther north than usual, while the Pacific jet stream remains across the southern U.S. Since much of the region lies between the two storm tracks, temperature and precipitation patterns vary considerably from south to north. The diagram above from NOAA represents general patterns and is not created from actual data. For more information, please visit: <a href='https://www.climate.gov/news-features/department/enso-blog'>https://www.climate.gov/news-features/department/enso-blog</a>."],
+          ["imgSrc", "jet_stream.png"],
+          ["imgTitle", ""],
+          ["title", "Typical El Niño Winter Pattern"]
+        ],
+        "outlooks01": [
+          ["imgAlt", "Northeast maps showing temperature and precipitation probabilities."],
+          ["imgCaption", ""],
+          ["imgSrc", "temp_precip.png"],
+          ["imgTitle", "Valid for December 2018 - February 2019"],
+          ["title", "El Niño Outlook"]
+        ],
+        "outlooks02": [
+          ["imgAlt", "Chart of probabalistic ENSO forecasts."],
+          ["imgCaption", ""],
+          ["imgSrc", "enso.png"],
+          ["imgTitle", "Winter 2018-19"],
+          ["title", "El Niño Outlook"]
+        ],
+        "impacts01": [
+          ["imgAlt", "Erosion occurring on NJ beaches"],
+          ["imgCaption", "Image courtesy of nj.gov"],
+          ["imgSrc", "coastal_storms.png"],
+          ["imgTitle", ""],
+          ["title", "Potential Winter Impacts"]
+        ],
+        "impacts02": [
+          ["imgAlt", "Map of the snowfall totals in the northeastern US"],
+          ["imgCaption", "January 2016 blizzard snow totals"],
+          ["imgSrc", "snowfall.png"],
+          ["imgTitle", ""],
+          ["title", "Potential Winter Impacts"]
+        ],
+        "compLimits01": [
+          ["imgAlt", "Maps of the temperature departure and normal precipitation in the northeastern US for the 2015-16 winter season"],
+          ["imgCaption", ""],
+          ["imgSrc", "comp_limits.png"],
+          ["imgTitle", ""],
+          ["title", "Comparisons and Limitations"]
+        ]
+      }
+    }
+  }
+}
