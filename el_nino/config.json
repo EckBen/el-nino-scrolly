@@ -95,18 +95,13 @@
           "class": "height-full-minus-title vertical-center"
         },
         "html_content": [{
-          "type": "media",
+          "type": "imgchanger",
           "props": {
             "title": "{state.imgTitle}",
-            "caption": "{state.imgCaption}"
-          },
-          "html_content": [{
-            "type": "imgchanger",
-            "props": {
-              "src": "./assets/{state.imgSrc}",
-              "alt": "{state.imgAlt}"
-            }
-          }]
+            "caption": "{state.imgCaption}",
+            "src": "./assets/{state.imgSrc}",
+            "alt": "{state.imgAlt}"
+          }
         }]
       },{
         "tag": "div",
