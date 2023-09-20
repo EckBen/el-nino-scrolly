@@ -60,7 +60,7 @@
   },{
     "type": "section",
     "props": {
-      "width": "wide"
+      "col": "wide"
     },
     "html_content": [{
       "type": "scroller",
@@ -92,7 +92,7 @@
         "tag": "div",
         "attributes": {
           "slot": "background",
-          "class": "height-full-minus-title vertical-center"
+          "class": "height-full-minus-title middle"
         },
         "html_content": [{
           "type": "imgchanger",
@@ -288,7 +288,7 @@
   },{
     "type": "section",
     "props": {
-      "width": "wide"
+      "col": "wide"
     },
     "html_content": [{
       "tag": "div",

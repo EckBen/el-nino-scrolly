@@ -50,12 +50,6 @@
   color: #003087;
 }
 
-.vertical-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .partner-list {
   list-style: none;
   text-indent: -60px;
