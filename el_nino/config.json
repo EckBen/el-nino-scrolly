@@ -111,7 +111,10 @@
         "html_content": [{
           "tag": "section",
           "attributes": {
-            "data-id": "highlights01"
+            "data-id": "highlights01",
+            "style": {
+              "padding-bottom": "35vh"
+            }
           },
           "html_content": [{
             "tag": "div",
@@ -132,7 +135,10 @@
         },{
           "tag": "section",
           "attributes": {
-            "data-id": "highlights02"
+            "data-id": "highlights02",
+            "style": {
+              "padding-bottom": "35vh"
+            }
           },
           "html_content": [{
             "tag": "div",
@@ -147,7 +153,10 @@
         },{
           "tag": "section",
           "attributes": {
-            "data-id": "highlights03"
+            "data-id": "highlights03",
+            "style": {
+              "padding-bottom": "35vh"
+            }
           },
           "html_content": [{
             "tag": "div",
@@ -258,7 +267,10 @@
         },{
           "tag": "section",
           "attributes": {
-            "data-id": "compLimits01"
+            "data-id": "compLimits01",
+            "style": {
+              "padding-bottom": "125px"
+            }
           },
           "html_content": [{
             "tag": "div",
@@ -280,6 +292,78 @@
             },{
               "tag": "p",
               "text": "Each El Niño is different and other factors can affect winter conditions, such pre-exisiting global snow cover patterns or climate variability associated with the <a href='https://www.ncei.noaa.gov/access/monitoring/ao/'>Arctic Oscillation</a> and <a href='https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml'>North Atlantic Oscillation</a>. For instance, during the winter of 1965-1966, expected El Niño precipitation was subdued due to a strong negative North Atlantic Oscillation. These patterns are less able to be forecast far in advance compared to El Niño, meaning it is uncertain how much they will affect the upcoming winter."
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "compLimits02",
+            "style": {
+              "padding-bottom": "75px"
+            }
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "p",
+              "text": "2015-16 Winter Season",
+              "attributes": {
+                "style": {
+                  "list-style": "disc outside none",
+                  "display": "list-item"
+                }
+              }
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "compLimits03",
+            "style": {
+              "padding-bottom": "75px"
+            }
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "p",
+              "text": "2016-17 Winter Season",
+              "attributes": {
+                "style": {
+                  "list-style": "disc outside none",
+                  "display": "list-item"
+                }
+              }
+            }]
+          }]
+        },{
+          "tag": "section",
+          "attributes": {
+            "data-id": "compLimits04",
+            "style": {
+              "padding-bottom": "60vh"
+            }
+          },
+          "html_content": [{
+            "tag": "div",
+            "attributes": {
+              "class": "col-medium"
+            },
+            "html_content": [{
+              "tag": "p",
+              "text": "2017-18 Winter Season",
+              "attributes": {
+                "style": {
+                  "list-style": "disc outside none",
+                  "display": "list-item"
+                }
+              }
             }]
           }]
         }]
@@ -532,7 +616,28 @@
           ["imgAlt", "Maps of the temperature departure and normal precipitation in the northeastern US for the 2015-16 winter season"],
           ["imgCaption", ""],
           ["imgSrc", "comp_limits.png"],
-          ["imgTitle", ""],
+          ["imgTitle", "2015-16 Winter Season"],
+          ["title", "Comparisons and Limitations"]
+        ],
+        "compLimits02": [
+          ["imgAlt", "Maps of the temperature departure and normal precipitation in the northeastern US for the 2015-16 winter season"],
+          ["imgCaption", ""],
+          ["imgSrc", "comp_limits.png"],
+          ["imgTitle", "2015-16 Winter Season"],
+          ["title", "Comparisons and Limitations"]
+        ],
+        "compLimits03": [
+          ["imgAlt", "Maps of the temperature departure and normal precipitation in the northeastern US for the 2016-17 winter season"],
+          ["imgCaption", ""],
+          ["imgSrc", "comp_limits.png"],
+          ["imgTitle", "2016-17 Winter Season"],
+          ["title", "Comparisons and Limitations"]
+        ],
+        "compLimits04": [
+          ["imgAlt", "Maps of the temperature departure and normal precipitation in the northeastern US for the 2017-18 winter season"],
+          ["imgCaption", ""],
+          ["imgSrc", "comp_limits.png"],
+          ["imgTitle", "2017-18 Winter Season"],
           ["title", "Comparisons and Limitations"]
         ]
       }
