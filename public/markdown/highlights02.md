@@ -1,0 +1,1 @@
+Although each El Niño is different, there are some general patterns that are predictable. For instance, the polar jet stream is typically farther north than usual, while the Pacific jet stream remains across the southern U.S.

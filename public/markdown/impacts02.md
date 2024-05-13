@@ -1,0 +1,5 @@
+Snowfall along the Northeast coast is typically above average during El Niño winters. The exception to this is the lake-effect region in New York. Buffalo's two least snowy winters since 1950 occurred during strong El Niños.
+
+Typically, in regions closer to the coast, December through February snowfall is as much as 6 inches greater during such winters. In Washington, DC, eight of the ten greatest 1-day snowfalls since 1950 have occurred during El Niños. However, individual storm tracks can influence where precipitation falls as rain versus snow.
+
+Heavy East Coast snowfalls have negative impacts on transportation and the economy. Based on the [Northeast Snowfall Impact Scale](https://www.ncei.noaa.gov/access/monitoring/rsi/nesis), an index that infers societal impacts based on the geographical extent and amount of snowfall along with population data, eight of the ten storms classified as crippling have occurred in conjunction with El Niño.
