@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.d1988dbe.js",
-    "index.html": "/index.html",
-    "main.d1988dbe.js.map": "/static/js/main.d1988dbe.js.map"
+    "main.js": "/el-nino-scrolly/static/js/main.3aa62101.js",
+    "index.html": "/el-nino-scrolly/index.html",
+    "main.3aa62101.js.map": "/el-nino-scrolly/static/js/main.3aa62101.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1988dbe.js"
+    "static/js/main.3aa62101.js"
   ]
 }
