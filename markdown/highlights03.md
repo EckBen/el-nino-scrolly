@@ -1,0 +1,1 @@
+The dry winter conditions that characterize Ohio and the Midwest commonly extend eastward into western New York and Pennsylvania. As storms often move up the coast during El Niño winters, the Eastern Seaboard generally experiences above-normal precipitation.

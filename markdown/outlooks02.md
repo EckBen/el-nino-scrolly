@@ -1,0 +1,3 @@
+### El Niño Strength
+
+While ENSO-neutral conditions were present in the equatorial Pacific Ocean during September, areas of above- average sea surface temperatures were becoming more widespread. According to the Climate Prediction Center, there is a [70-75% chance](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) that El Niño will form in the next few months and continue through winter 2018-19. The forecast favors a weak El Niño event.
